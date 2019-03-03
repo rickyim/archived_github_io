@@ -1,0 +1,60 @@
+.template-document_view_refresh #content .list-open {
+	padding: 0px;
+}
+#content .expandcollapse {
+	margin: 20px 10px 0px; padding: 0px 0px 10px;
+}
+.template-document_view_refresh #content .expandcollapse {
+	
+}
+#content .expandcollapse li.odd {
+	background: rgb(219, 216, 209); margin: 0px 0px 5px; border-radius: 5px; border: 1px solid rgb(170, 168, 167); border-image: none; display: block; position: relative;
+}
+#content .expandcollapse li.odd:hover {
+	background: rgb(119, 112, 94);
+}
+#content .expandcollapse li.odd:focus {
+	background: rgb(119, 112, 94);
+}
+#content .expandcollapse li.odd:hover a {
+	color: rgb(255, 255, 255);
+}
+#content .expandcollapse li.odd:focus a {
+	color: rgb(255, 255, 255);
+}
+#content .expandcollapse li.odd.expanded {
+	background: rgb(119, 112, 94); margin: 0px; border-radius: 5px 5px 0px 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+#content .expandcollapse li.odd.expanded a {
+	color: rgb(255, 255, 255);
+}
+#content .expandcollapse li.odd a {
+	padding: 7px 30px 7px 20px; color: rgb(102, 103, 112); display: block;
+}
+#content .expandcollapse li.odd .plus {
+	background: url("../images/expandcollapse/plus.png") no-repeat 0px 0px; top: 8px; width: 13px; height: 13px; right: 8px; position: absolute;
+}
+#content .expandcollapse li.odd .plus.minus {
+	background: url("../images/expandcollapse/minus.png") no-repeat 0px 0px; top: 12px;
+}
+#content .expandcollapse li.even {
+	margin: 0px 0px 5px; padding: 0px 20px; border-radius: 0px 0px 5px 5px; border: 1px solid rgb(119, 112, 94); border-image: none;
+}
+.js #content .expandcollapse li.even {
+	display: none;
+}
+#content .expandcollapse li.even p {
+	padding: 0px;
+}
+#content .expandcollapse li.even h3 {
+	padding: 0px;
+}
+#content .expandcollapse li.even h4 {
+	padding: 0px;
+}
+#content .expandcollapse li.even h5 {
+	padding: 0px;
+}
+#content .expandcollapse li.even ul {
+	padding: 0px;
+}

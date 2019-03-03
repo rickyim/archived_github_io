@@ -1,0 +1,42 @@
+a.inline {
+	display: inline-block;
+}
+a.btn {
+	color: rgb(255, 255, 255);
+}
+a.btn2 {
+	color: rgb(255, 255, 255);
+}
+.btn {
+	background: linear-gradient(rgb(175, 131, 0) 0%, rgb(161, 118, 0) 52%, rgb(146, 103, 0) 100%); padding: 7px 0.5em; border-radius: 8px; font-size: 13px; font-weight: bold; text-decoration: none; margin-bottom: 1em; display: block; min-width: 20px; text-shadow: 1px 0px 0px #000; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+}
+.btn2 {
+	background: linear-gradient(rgb(175, 131, 0) 0%, rgb(161, 118, 0) 52%, rgb(146, 103, 0) 100%); padding: 7px 0.5em; border-radius: 8px; font-size: 13px; font-weight: bold; text-decoration: none; margin-bottom: 1em; display: block; min-width: 20px; text-shadow: 1px 0px 0px #000; -moz-border-radius: 8px; -webkit-border-radius: 8px;
+}
+.lt-ie9 .btn {
+	
+}
+.lt-ie9 .btn2 {
+	
+}
+.btn {
+	text-align: center;
+}
+.btn2 {
+	padding: 7px 38px 7px 0.5em; border: 1px solid rgb(100, 118, 148); border-image: none; height: auto; position: relative;
+}
+.btn2 span {
+	background: url("../images/view-btn-arrow3.png") no-repeat left; top: 0px; width: 32px; height: 100%; right: 0px; position: absolute; border-top-right-radius: 8px; border-bottom-right-radius: 8px; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px;
+}
+.btn:hover {
+	background: linear-gradient(rgb(145, 102, 0) 0%, rgb(173, 129, 7) 52%, rgb(195, 150, 13) 100%); text-decoration: none;
+}
+.btn2:hover {
+	background: linear-gradient(rgb(145, 102, 0) 0%, rgb(173, 129, 7) 52%, rgb(195, 150, 13) 100%); text-decoration: none;
+}
+.lt-ie9 .btn:hover {
+	
+}
+.lt-ie9 .btn2:hover {
+	
+}
